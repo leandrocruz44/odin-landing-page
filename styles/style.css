@@ -133,19 +133,28 @@ main{
 /* Quote section */
 
 aside{
-    background-color: #e5e7eb;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Ayrton_Senna_in_1988.jpg/1024px-Ayrton_Senna_in_1988.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
     padding: 100px 250px;
     color: #1f2937;
 }
 
 .quote{
+    background-color: #ffffff9a;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
     font-size: 36px;
     font-style: italic;
-    font-weight: 300;
+    font-weight: 400;
     text-align: justify;
 }
 
 .author{
+    background-color: #ffffff9a;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
     text-align: right;
     font-weight: bolder;
     font-size: 20px;
