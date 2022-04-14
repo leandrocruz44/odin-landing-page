@@ -14,7 +14,7 @@ header{
     flex-direction: column;
     background-color: #1f2937;
     color: white;
-    padding: 0 200px;
+    
 }
 
 
@@ -22,7 +22,7 @@ header{
 
 .top{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 10px 0;
     margin-bottom: 100px;
@@ -51,6 +51,7 @@ header .logo{
 
 .awesome{
     display: flex;
+    justify-content: center;
     align-items: center;
     margin-bottom: 50px;
     gap: 20px;
@@ -63,6 +64,7 @@ header .logo{
     display: flex;
     flex-direction: column;
     text-align: left;
+    width: 410px;
 }
 
 .awe.text h1{
@@ -88,7 +90,6 @@ header .logo{
 
 
 main{
-    padding: 0 200px;
     display: flex;
     flex-direction: column;
 }
@@ -113,6 +114,12 @@ main{
 
 .cards{
     display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card{
+    width: 210px;
 }
 
 .card .image{
