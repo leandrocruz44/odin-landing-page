@@ -186,3 +186,13 @@ aside{
 .call p{
     margin: 5px 0px;
 }
+
+
+/* Footer */
+
+footer{
+    background-color: #1f2937;
+    padding: 50px 0;
+    text-align: center;
+    color: #e5e7eb;
+}
