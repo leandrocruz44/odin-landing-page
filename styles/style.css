@@ -81,6 +81,40 @@ header .logo{
     font-size: 18px;
 }
 
-.awe.image{
+.image{
     border-radius: 10px;
+}
+
+
+
+main{
+    padding: 0 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Some random information */
+
+.random{
+    text-align: center;
+}
+
+.random h1{
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.random p{
+    color: #1f2937;
+    font-size: 1.1em;
+    padding: 0 20px;
+}
+
+.cards{
+    display: flex;
+}
+
+.card .image{
+    border: 5px solid #3882f6;
 }
